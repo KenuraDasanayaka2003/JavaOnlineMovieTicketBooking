@@ -48,14 +48,14 @@ public class Test
                 }
             }
         }
-        while(choice!=5);
+        while(choice!=4);
     }
     public static void displayMenu()
     {
         System.out.println("1. Add a movie");
         System.out.println("2. View Movie details");
         System.out.println("3. Calculate Ticket Cost : ");
-        System.out.println("5. Exit");
+        System.out.println("4. Exit");
     }
     public static void addMovie(ArrayList<Movie> movies)
     {
@@ -91,7 +91,7 @@ public class Test
          
             }
         }
-        System.out.println(totalCost);
+        System.out.println("Total Cost for Tickets : "+totalCost);
     }
     
 }
